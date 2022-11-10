@@ -22,14 +22,15 @@ const Sidebar = ({ sidebarOpen, toggleSidebar }) => {
 				</button>
 			</div>
 
-			<div className='flex flex-col gap-8 justify-start text-center	items-center w-full h-full'>
+			<div className='flex flex-col gap-8 justify-start text-center items-center w-full h-full mt-12'>
 				<ul className='flex flex-col'>
 					<Link
 						to='services'
 						smooth={true}
 						offset={-100}
 						spy='true'
-						className='p-4 hover:text-amber-300 cursor-pointer transition delay-100 duration-300 '>
+						className='p-4 hover:text-amber-300 cursor-pointer transition delay-100 duration-300'
+						onClick={() => toggleSidebar(!sidebarOpen)}>
 						Services
 					</Link>
 					<Link
@@ -37,7 +38,8 @@ const Sidebar = ({ sidebarOpen, toggleSidebar }) => {
 						smooth={true}
 						offset={-70}
 						spy='true'
-						className='p-4  hover:text-amber-300 cursor-pointer transition delay-100 duration-300 '>
+						className='p-4  hover:text-amber-300 cursor-pointer transition delay-100 duration-300'
+						onClick={() => toggleSidebar(!sidebarOpen)}>
 						Destinations
 					</Link>
 					<Link
@@ -45,7 +47,8 @@ const Sidebar = ({ sidebarOpen, toggleSidebar }) => {
 						smooth={true}
 						offset={-70}
 						spy='true'
-						className='p-4  hover:text-amber-300 cursor-pointer transition delay-100 duration-300 '>
+						className='p-4  hover:text-amber-300 cursor-pointer transition delay-100 duration-300'
+						onClick={() => toggleSidebar(!sidebarOpen)}>
 						Bookings
 					</Link>
 					<Link
@@ -53,7 +56,8 @@ const Sidebar = ({ sidebarOpen, toggleSidebar }) => {
 						smooth={true}
 						offset={-70}
 						spy='true'
-						className='p-4  hover:text-amber-300 cursor-pointer transition delay-100 duration-300 '>
+						className='p-4  hover:text-amber-300 cursor-pointer transition delay-100 duration-300'
+						onClick={() => toggleSidebar(!sidebarOpen)}>
 						Testimonials
 					</Link>
 				</ul>
@@ -61,7 +65,8 @@ const Sidebar = ({ sidebarOpen, toggleSidebar }) => {
 					<li>
 						<a
 							href='/'
-							className='hover:text-amber-300 cursor-pointer transition delay-100 duration-300 '>
+							className='hover:text-amber-300 cursor-pointer transition delay-100 duration-300'
+							onClick={() => toggleSidebar(!sidebarOpen)}>
 							Login
 						</a>
 					</li>

@@ -21,6 +21,8 @@ module.exports = {
 			// => @media (max-width: 530px) { ... }
 			oats: { max: '500px' },
 			// => @media (max-width: 500px) { ... }
+			quinoa: { max: '400px' },
+			// => @media (max-width: 400px) { ... }
 		},
 		extend: {
 			boxShadow: {

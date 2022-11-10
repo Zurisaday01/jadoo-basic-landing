@@ -6,17 +6,17 @@ import HeaderImg from '../../assets/imgs/Image.png';
 
 const Header = () => {
 	return (
-		<div className='flex px-20 rice:px-10 justify-center items-center min-h-[100vh] wheat:flex-col gap-10'>
+		<div className='flex px-20 rice:px-10 justify-center items-center min-h-[100vh] wheat:flex-col gap-10 mb-28'>
 			<div className='absolute top-0 right-0 h-full w-full bg-amber-100 hero-shape'></div>
-			<div className='flex flex-col justify-center items-start h-full w-7/12 wheat:w-full wheat:pt-[200px] wheat:items-center'>
-				<span className='text-amber-600 uppercase'>
+			<div className='flex flex-col justify-center items-start h-full w-7/12 wheat:w-full wheat:mt-[170px] rice:mt-[150px] wheat:items-center'>
+				<span className='text-amber-600 uppercase wheat:text-center'>
 					Best destinations around the word
 				</span>
 
-				<h1 className='text-7xl mt-5 mb-6 wheat:text-center rice:text-6xl wheat:text-5xl'>
+				<h1 className='text-7xl mt-5 mb-6 wheat:text-center rice:text-6xl wheat:text-5xl quinoa:text-[60px] leading-tight'>
 					Travel, <span>enjoy</span> and live a new and full life
 				</h1>
-				<p className='w-4/5 wheat:w-full'>
+				<p className='w-4/5 wheat:text-center wheat:w-full'>
 					Build Wicket longer admire do barton vanity itself do in it. Preferred
 					to sportmen it engrossed listening. Park gate sell they west hard for
 					the.
@@ -39,9 +39,9 @@ const Header = () => {
 					</div>
 				</div>
 			</div>
-			<div className='w-4/5 h-5/6'>
+			<div className='w-4/5 h-5/6 flex items-center justify-center'>
 				<img
-					className='w-full h-full object-center object-contain'
+					className='w-10/12 h-full object-center object-contain mt-12'
 					src={HeaderImg}
 					alt='header'
 				/>
