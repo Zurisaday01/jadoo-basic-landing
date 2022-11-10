@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { Helmet } from 'react-helmet';
+// css
+import 'swiper/css/bundle';
+import './style/normalize.css';
+import './style/style.css';
+
+// Screens
+import Landing from './screens/Landing';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<>
+			<Helmet>
+				<link rel='preconnect' href='https://fonts.googleapis.com' />
+				<link
+					href='https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400&family=Poppins:wght@300;400&display=swap'
+					rel='stylesheet'
+				/>
+			</Helmet>
+			<Landing />
+		</>
+	);
 }
 
 export default App;

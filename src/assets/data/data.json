@@ -1,0 +1,97 @@
+{
+	"services": [
+		{
+			"_id": 1,
+			"icon": "FaSatelliteDish",
+			"title": "Calculated Weather",
+			"info": "Build Wicket longer admire de barton vanity itself do in it."
+		},
+		{
+			"_id": 2,
+			"icon": "RiFlightTakeoffFill",
+			"title": "Best Flights",
+			"info": "Engrossed listening. Park gate sell they west hard for the."
+		},
+		{
+			"_id": 3,
+			"icon": "FaMicrophoneAlt",
+			"title": "Local Events",
+			"info": "Barton vanity itself do in it. Prefred to men it engrossed listening."
+		},
+		{
+			"_id": 4,
+			"icon": "MdSettings",
+			"title": "Customization",
+			"info": "We delivered autsourced aviation services for military customers."
+		}
+	],
+	"destinations": [
+		{
+			"_id": 5,
+			"imgUrl": "https://images.unsplash.com/photo-1515542622106-78bda8ba0e5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+			"destination": "Rome, Italy",
+			"price": 5.42,
+			"duration": 10
+		},
+		{
+			"_id": 6,
+			"imgUrl": "https://images.unsplash.com/photo-1514065549995-7706f6017a27?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+			"destination": "London, UK",
+			"price": 4.2,
+			"duration": 12
+		},
+		{
+			"_id": 7,
+			"imgUrl": "https://images.unsplash.com/photo-1503410781609-75b1d892dd28?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80",
+			"destination": "Full",
+			"price": 15,
+			"duration": 28
+		}
+	],
+	"steps": [
+		{
+			"_id": 8,
+			"icon": "GiLockpicks",
+			"title": "Choose Destination",
+			"info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget accumsan neque.",
+			"color": "bg-yellow-500"
+		},
+		{
+			"_id": 9,
+			"icon": "MdPayment",
+			"title": "Make Payment",
+			"info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget accumsan neque.",
+			"color": "bg-orange-500"
+		},
+		{
+			"_id": 10,
+			"icon": "BiTaxi",
+			"title": "Reach Airport on Selected Date",
+			"info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget accumsan neque.",
+			"color": "bg-green-700"
+		}
+	],
+	"testimonials": [
+		{
+			"_id": 11,
+			"name": "Mike Taylor",
+			"review": "On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no",
+			"location": "Lahore, Pakistan",
+			"imgUrl": "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+		},
+		{
+			"_id": 12,
+			"name": "Sarah Brown",
+			"review": "On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no",
+			"location": "Standor, New Orlands",
+			"imgUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=761&q=80"
+		},
+		{
+			"_id": 13,
+			"name": "Jacob Stiff",
+			"review": "On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no",
+			"location": "Mila, England",
+			"imgUrl": "https://images.unsplash.com/photo-1528892952291-009c663ce843?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=644&q=80"
+		}
+	]
+}

@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	li {
+		@apply p-4;
+	}
+
+	p {
+		@apply text-gray-500;
+		@apply leading-6;
+	}
+}
+
+.hero-shape {
+	clip-path: polygon(100% 0, 0 0, 100% 100%);
+	z-index: -30;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Poppins', sans-serif;
+	line-height: 1.7;
+}
+
+body {
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+.slide {
+	width: 500px !important;
+	height: 500px;
+	gap: 100px;
+	padding: 20px;
+}
+
+.slide-item {
+	cursor: pointer;
+}
+
+.img-slide {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 0%);
+}
